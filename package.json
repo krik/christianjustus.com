@@ -14,7 +14,6 @@
   "dependencies": {
     "next": "^6.1.1",
     "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-ionicons": "^2.1.6"
+    "react-dom": "^16.4.2"
   }
 }
