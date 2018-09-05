@@ -6,11 +6,11 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "export": "next export -o dist/",
-    "start": "next start"
+    "export": "next export",
+    "start": "next start",
+    "deploy": "next build && next export && git add out/ && git commit -m \"Deploy gh-pages\" && git subtree push --prefix out origin gh-pages"
   },
   "author": "",
-  "license": "ISC",
   "dependencies": {
     "next": "^6.1.1",
     "react": "^16.4.2",
